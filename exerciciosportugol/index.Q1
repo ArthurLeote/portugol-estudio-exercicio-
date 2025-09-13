@@ -1,15 +1,17 @@
 programa {
   funcao inicio() {
     
-  inteiro n1, n2 
-   
-   escreva("Digite o primeiro numero: ")
-   leia(n1)
-   escreva("Digite o segundo numero: ")
-   leia(n2)
+real n1, n2, sub
 
-  escreva("o resulado vale: ", n1 / n2)
+escreva("Digite o numero que vc quer subtrair: ")
+leia(n1)
 
+escreva("Digite agora o algorismo que fará a subtração do primeiro número: ")
+leia(n2)
+
+sub = n1 - n2 
+
+escreva("A subtração de ", n1 , " menos ", n2 , " Resulta em: ", sub)
 
   }
 }
