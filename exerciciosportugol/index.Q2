@@ -1,1 +1,22 @@
-questão dois adicionada aqui 
+programa {
+  funcao inicio() {
+    
+inteiro n1, n2, n3, resultado
+
+escreva("Vamos realizar a multiplicação de 3 numero inteiros?!, adicione seu primeiro algarismo: ")
+leia(n1)
+
+escreva("Agora adicione o segundo número da nossa operação: ")
+leia(n2)
+
+escreva("Por ultimo adicione o número da nossa multiplicação: ")
+leia(n3)
+
+
+resultado = (n1 * n2 * n3)
+
+escreva(" O resultado da nossa multiplicação é: ", resultado)
+  
+  
+  }
+}
