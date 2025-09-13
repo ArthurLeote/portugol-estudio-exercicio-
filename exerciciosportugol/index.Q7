@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+
+ real peso, pesomais15, pesomenos20
+ 
+escreva("Informe seu peso atual em Kg :")
+leia(peso)
+
+pesomais15 = peso + (peso * 15/100)
+pesomenos20 = peso - (peso * 20/100)
+
+escreva("\nSe engordar 15%: ", pesomais15, "kg ")
+escreva("\n Se emagrecer 20%: ", pesomenos20, "kg ")
+
+
+  }
+}

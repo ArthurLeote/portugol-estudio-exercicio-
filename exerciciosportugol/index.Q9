@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+real basemaior, basemenor, altura, area
+
+escreva("Inforeme a maior base: ")
+leia(basemaior)
+escreva("Informe a menor base: ")
+leia(basemenor)
+escreva("Informe a altura: ")
+leia(altura)
+
+
+area = ((basemaior + basemenor) * altura) /2
+
+escreva("Area :", area)
+
+  }
+}

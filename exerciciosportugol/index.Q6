@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    real salario, novosalario, comissao, vendas
+
+    escreva("Digite o valor do salario: ")
+    leia(salario)
+    escreva("Digite valor de suas vendas: ")
+    leia(vendas)
+    comissao = vendas * 4/100
+    novosalario = salario + comissao
+
+    escreva("Valor que você receberá esse mês será de: ", novosalario, " E sua comissão é equivalente a: ", comissao)
+  }
+} 

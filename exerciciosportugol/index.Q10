@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    
+real lado, area 
+
+escreva("Informe do lado: ")
+leia(lado)
+
+area = lado * lado
+escreva("\nA area vale: ", area)
+
+
+  }
+}

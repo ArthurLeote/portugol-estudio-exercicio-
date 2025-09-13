@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+ 
+real n1, n2 , div
+
+escreva("Adicione o primeiro número que queira dividir: ")
+leia(n1)
+
+escreva("Agora adicione o algorismo escolhido para ser divisor do primerio número adicionado ")
+leia(n2)
+
+div = n1 / n2 
+
+escreva("a Divisão de ", n1, " por ", n2 ," resultará em:", div)
+
+
+  }
+}

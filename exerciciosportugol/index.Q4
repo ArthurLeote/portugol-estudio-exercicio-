@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+
+    real n1, n2, media
+
+    escreva("Para calcular a sua média digite por favor sua primeira nota: ")
+    leia(n1)
+    escreva("Agora sua segundo nota: ")
+    leia(n2)
+
+        media = (n1 * 2) + (n2 * 3)/ 5
+
+        se (media >= 6)
+        escreva ("Aprovado")
+        senao (escreva("Reprovado"))
+  }
+} 

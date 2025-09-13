@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    
+    real area,diagonalMaior, diagonalMenor
+
+   escreva("Digite a Diagonal Maior: ")
+   leia(diagonalMaior)
+   escreva("Digite a Diagonal Menor: ")
+   leia(diagonalMenor) 
+
+   area = ( diagonalMaior * diagonalMenor) /2
+
+   escreva("A Area é igual a : ", area)
+
+  }
+}

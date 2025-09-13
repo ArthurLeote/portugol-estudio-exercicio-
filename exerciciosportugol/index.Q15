@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    
+inteiro salario, conta1, conta2, restSalario, multa 
+
+escreva("Equivale a quanto o salário de João: ")
+leia(salario)
+
+escreva("Sua primeira conta é de: ")
+leia(conta1)
+
+escreva("Sua segunda conta em débito é de: ")
+leia(conta2)
+
+ multa = (conta1 + (conta1 * 2 / 100)) + (conta2 + (conta2 * 2 / 100))
+ restSalario = salario - multa
+
+escreva("O restante do salario de joão pagando o equivalente a 2% de multa em cada conta é: ", restSalario)
+
+  }
+}

@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    
+real salariominimo, salariofuncionario, qtdsalarios 
+
+escreva("Informe o salário do Funcionário: ")
+leia(salariofuncionario)
+
+escreva("Valor salário minimo: ")
+leia(salariominimo)
+
+qtdsalarios = salariofuncionario / salariominimo
+
+escreva("O total de Salarios minimos que o funcionário recebe é: ", qtdsalarios)
+
+  }
+}

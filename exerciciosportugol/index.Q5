@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    real preco, novopreco
+    escreva("Diga o valor do produto: ")
+    leia (preco)
+
+    novopreco = preco - (preco * 10/100)
+
+    escreva("Com o cupom de 10% adicionado, o valor do produto sairá por apenas: ", novopreco)
+  }
+} 

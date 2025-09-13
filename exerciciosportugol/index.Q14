@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+     inteiro anoNascimento, anoAtual, anos, meses, semanas, dias 
+
+    escreva("Informe ano de nascimento: ")
+    leia(anoNascimento)
+    escreva("\nInforme ano atual: ")
+    leia(anoAtual)
+    
+    
+    anos = anoAtual - anoNascimento
+    meses = anos * 12
+    semanas = anos * 52
+    dias = anos * 365
+
+  
+    escreva("\nIdade dessa pessoa em anos: ",anos)
+    escreva("\nIdade dessa pessoa em meses: ",meses)
+    escreva("\nIdade dessa pessoa em semanas: ",semanas)
+    escreva("\nIdade dessa pessoa em dias: ",dias)
+  }
+}
