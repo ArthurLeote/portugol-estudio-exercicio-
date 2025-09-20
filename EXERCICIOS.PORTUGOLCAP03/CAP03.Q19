@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+
+real comprimento, largura, area, potenciailuminacao
+real potenciametro = 18.0 
+
+escreva("Digite o comprimento do seu cômodo: ")
+leia(comprimento)
+
+escreva("adicione a larugura do cômodo: ")
+leia(largura)
+
+area = comprimento * largura 
+potenciailuminacao = area * potenciametro
+
+escreva("a area da do cômodo sera: ", area)
+escreva(" a potencia de iluminação que deverá ser utilizada é: ", potenciailuminacao)
+
+  }
+}

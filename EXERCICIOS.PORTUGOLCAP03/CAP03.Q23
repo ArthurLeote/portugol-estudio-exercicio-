@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+
+  real angulo1, angulo2, terceiroangulo 
+
+   escreva("Digite o valor do primeiro angulo: ")
+   leia(angulo1)
+   escreva("Digite o valor do segundo angulo: ")
+   leia(angulo2)
+
+  terceiroangulo = 180 - (angulo1 + angulo2)
+
+  escreva("A medida do terceiro angulo é igual a: ", terceiroangulo)
+
+  }
+}

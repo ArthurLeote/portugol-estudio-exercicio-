@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro dinheiropessoa, reais, dolar, marco , libra 
+
+    escreva("Quantos reais você tem para viajar: ")
+    leia(dinheiropessoa)
+
+    dolar = dinheiropessoa / 1.80
+    escreva("\no dinheiro convertido em Dolares será equivalente a: ", dolar, "R$")
+
+    marco = dinheiropessoa / 2.00
+    escreva("\nconvertido em Marco Alemão o equivalente do valor da pessoa será: ", marco, "R$")
+
+    libra = dinheiropessoa / 3.75
+    escreva("\nconvertido em Libras o equivalente ao valor da pessoa será: ", libra,"R$" )
+
+    
+  }
+}
